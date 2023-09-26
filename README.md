@@ -8,7 +8,7 @@ The project leverages data stemming from the direct marketing endeavors of a ban
 
 The algorithms developed through the Python SDK (with Hyperdrive) and AutoML strive to precisely predict the likelihood of a potential client subscribing to a term deposit. This facilitates optimal resource allocation towards clients with a higher propensity to subscribe.
 
-A Voting Ensemble model discovered through the AutoML run exhibited the highest accuracy at 91.78%. However, the Logistic classifier, shaped using Hyperdrive, closely followed with an accuracy of 90.59%.
+A Voting Ensemble model discovered through the AutoML run exhibited the highest accuracy at 91.77%. However, the Logistic classifier, shaped using Hyperdrive, closely followed with an accuracy of 90.59%.
 
 ## Scikit-learn and Hyperdrive Pipeline
 
@@ -21,7 +21,7 @@ Initially, a Logistic Regression model was formulated and trained employing Scik
 - Utilization of Scikit-learn for the preliminary training of a Logistic Regression model, specifying the values of C and max_iter. These parameters were intended for subsequent optimization via Hyperdrive.
 - Preservation of the trained model
 
-With parameters C=776525.935251541 and max_iter=500, the model attained an accuracy of 90.59%.
+With parameters C=3122262070046.714 and max_iter=500, the model attained an accuracy of 90.59%.
 
 ### Hyper Drive
 The initially trained model underwent optimization with Hyperdrive, allowing for efficient, parallel hyperparameter tuning. The Hyperdrive implementation consisted of:
